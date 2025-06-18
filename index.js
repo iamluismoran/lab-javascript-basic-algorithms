@@ -11,3 +11,11 @@ else if (hacker2.length > hacker1.length) {console.log(`It seems that the naviga
 else {console.log (`Wow, you both have equally long names,${hacker1.length} characters.`)}
 
 // Iteration 3: Loops
+let nameWithSpaces = '';
+for (let i = 0; i <hacker1.length; i++) { nameWithSpaces += hacker1[i].toUpperCase() + ' ';}
+
+console.log (nameWithSpaces.trim());
+
+let reverseOrder = '';
+for (let i = hacker2.length - 1; i >= 0; i--) { reverseOrder += hacker2[i];}
+console.log(reverseOrder);
